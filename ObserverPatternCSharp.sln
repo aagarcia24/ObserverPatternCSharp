@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32428.217
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternConsole", "ObserverPatternConsole\ObserverPatternConsole.csproj", "{BA57A0CB-6D1B-47C6-9A02-F39F264B9434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternNetConsole", "ObserverPatternNetConsole\ObserverPatternNetConsole.csproj", "{3BC1BDE4-39AB-41B6-9EA2-A51D78727D03}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA57A0CB-6D1B-47C6-9A02-F39F264B9434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA57A0CB-6D1B-47C6-9A02-F39F264B9434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA57A0CB-6D1B-47C6-9A02-F39F264B9434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA57A0CB-6D1B-47C6-9A02-F39F264B9434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC1BDE4-39AB-41B6-9EA2-A51D78727D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC1BDE4-39AB-41B6-9EA2-A51D78727D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC1BDE4-39AB-41B6-9EA2-A51D78727D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC1BDE4-39AB-41B6-9EA2-A51D78727D03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
